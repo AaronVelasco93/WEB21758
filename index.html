@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Principal</title>
+<!--Es una mala practica-->
+<script>
+    alert("Hola mundo");
+</script>
+
+</head>
+<body>
+    <h1>Hola</h1>
+
+<!--Es una mala practica-->
+    <script>
+        function saludar(){
+            alert("Saludos desde el body");
+        }
+    </script>
+    <br>
+    <hr>
+    <section>
+        <button onclick="saludar()" >saludo</button>
+        <button onclick="despedir()" >Despedida</button>
+        <button onclick="mostrar()" >Mostrar</button>
+    </section>
+
+
+</body>
+<!--Es una buena practica-->
+<script src="app.js"></script>
+
+</html>
