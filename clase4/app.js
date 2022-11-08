@@ -7,7 +7,7 @@ let vidas=3;
 while(numeroMaquina !== numeroUser && vidas >1){
    
     if (numeroMaquina < numeroUser) {
-        console.log("Es más bajo");
+        console.log("Es más bajo");cd 
     } else {
         console.log("Es más alto");
     }
